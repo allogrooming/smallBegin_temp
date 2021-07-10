@@ -10,13 +10,27 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-3.5.1.min.js"></script>
 <script>
 //JavaScript 영역
-$(function(){
 
+/* 	var today = new Date();
+	var dd = String(today.getDate()).padStart(2, '0');
+	var mm = String(today.getMonth() + 1).padStart(2, '0');
+	var yyyy = today.getFullYear();
+	
+	var todayDate = yyyy + "." + mm + "." + dd;
+	
+	var todayDiv = document.getElementById("2021.07.09");
+
+$(document).ready(function() {
+	$(todayDiv).css({"background": "black", "color": "white"});
+	$("#selectedDay").text(todayDate);
+}); */
+
+$(function(){
 	
 	var startDay = new Date("2021-1-1");//시작날짜 고정
 	var today = new Date();
-	var dateArr = new Array(); 
-
+	var dateArr = new Array();
+	var idVal = 0;
 	
 	//1. 시작일로부터 380일까지의 날짜 배열 구하기
 	function countDate(){
@@ -47,14 +61,18 @@ $(function(){
 	}
 	
 	
-	//3. div태그의 id값을 aside 영역에 출력
+	//3. div태그의 id값을 aside 영역에 출력, 클릭 시 색상 변경
 	function showSelectedDay(){
 		$(".days").click(function() {
 			
-			var idVal = $(this).attr("id");
-		
+			if(idVal != $(this).attr("id")){
+				$(".days").css("background","none");
+				selectToday();
+				$(this).css("background","pink");
+			}
+			idVal = $(this).attr("id");
 			$("#selectedDay").text(idVal);
-	
+
 		});
 	}
 	
@@ -82,22 +100,11 @@ $(function(){
 	
 	//5. 오늘 날짜 표시하기////////////////////////////////////////
 	function selectToday(){
-		alert(formatDate(today));
 		var strId =  formatDate(today);
 		var todayDiv = document.getElementById(strId);
 		$(todayDiv).css({"background": "black", "color": "white"});
 		$("#selectedDay").text(strId);
 		
-	}
-	
-	
-	function clickedDay(){
-		$("div").click(function(){
-			var clickedDate = $(this).attr();
-			
-			$(clickedDate).css("background","pink");
-			console.log("fuck");
-		});
 	}
 
 	
