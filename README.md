@@ -21,3 +21,6 @@ DB
 
 ## Aug 27
 https://miro.com/app/board/o9J_l1NZU9A=/
+
+## Aug 30
+테스트 시나리오 작성 (Set goal ~ Calendar)
