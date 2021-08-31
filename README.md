@@ -24,3 +24,6 @@ https://miro.com/app/board/o9J_l1NZU9A=/
 
 ## Aug 30
 테스트 시나리오 작성 (Set goal ~ Calendar)
+
+## Aug 31
+나름 뭐든 하는데 ㅈ된거같다
