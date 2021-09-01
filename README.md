@@ -27,3 +27,6 @@ https://miro.com/app/board/o9J_l1NZU9A=/
 
 ## Aug 31
 나름 뭐든 하는데 ㅈ된거같다
+
+## Sep 01
+잘하자
