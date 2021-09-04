@@ -30,3 +30,6 @@ https://miro.com/app/board/o9J_l1NZU9A=/
 
 ## Sep 01
 잘하자
+
+## Sep 04
+OKR 이론 적용
