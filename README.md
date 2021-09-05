@@ -33,3 +33,6 @@ https://miro.com/app/board/o9J_l1NZU9A=/
 
 ## Sep 04
 OKR 이론 적용
+
+## Sep 05
+DBA
