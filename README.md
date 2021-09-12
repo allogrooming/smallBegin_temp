@@ -36,3 +36,6 @@ OKR 이론 적용
 
 ## Sep 05
 DBA
+
+## Sep 12 ~
+Flow chart
