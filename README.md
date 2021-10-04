@@ -46,3 +46,7 @@ Flow chart
 
 ## Sep 24
 둘이 하니까 확실히 시간이 오래 걸리긴함
+
+## Oct 04
+Set goal >> Goal
+Goal 시나리오, DBA 완성
