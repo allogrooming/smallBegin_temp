@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T16:09:33.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Xrr7W9pdN5P1ICp1D5px" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T16:10:59.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ouAcYRrEOEFNMzWwZwbN" version="15.5.0" type="github">
   <diagram id="Uq3l2EWZINXqB6MkOoWw" name="전체적인 순서도">
     <mxGraphModel dx="4082" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -236,6 +236,16 @@
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-32" value="경고 한 OB당 저장 가능한 KR의 수는 n개입니다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-34" target="aWaKsQ2O3t7kNbBKUAZW-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="2121.333251953125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1710" />
+              <mxPoint x="550" y="1710" />
+              <mxPoint x="550" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-34" value="할 일 정하기 버튼 클릭" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="1730" width="120" height="80" as="geometry" />
         </mxCell>
@@ -251,8 +261,29 @@
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-40" value="KR 테이블 수정" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="380" y="1950" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-44" target="aWaKsQ2O3t7kNbBKUAZW-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-44" value="Ini 입력" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-46" target="aWaKsQ2O3t7kNbBKUAZW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-46" target="aWaKsQ2O3t7kNbBKUAZW-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-46" value="정보가 적절히 입력됨" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-47" target="aWaKsQ2O3t7kNbBKUAZW-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-47" value="Ajax를 통해 틀린게 있으면 밑에 경고문구" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-48" value="Ini 테이블" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2290" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
