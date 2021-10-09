@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T15:58:53.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Hsp7_5FRyUBtd4fjh4gU" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T16:00:55.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="6DZ2fHdFq58lMMJka4pw" version="15.5.0" type="github">
   <diagram id="Uq3l2EWZINXqB6MkOoWw" name="전체적인 순서도">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -78,11 +78,10 @@
         <mxCell id="pIeUTdMdYG4i5QMNmfUO-18" value="Ajax를 통해 틀린게 있으면 밑에 경고문구" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pIeUTdMdYG4i5QMNmfUO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-20" target="pIeUTdMdYG4i5QMNmfUO-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pIeUTdMdYG4i5QMNmfUO-20" value="Member 테이블에 &lt;br&gt;데이터 저장" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="pIeUTdMdYG4i5QMNmfUO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="pIeUTdMdYG4i5QMNmfUO-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="660" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pIeUTdMdYG4i5QMNmfUO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-21" target="pIeUTdMdYG4i5QMNmfUO-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -112,8 +111,10 @@
         <mxCell id="pIeUTdMdYG4i5QMNmfUO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-29" target="pIeUTdMdYG4i5QMNmfUO-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pIeUTdMdYG4i5QMNmfUO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-29" target="pIeUTdMdYG4i5QMNmfUO-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pIeUTdMdYG4i5QMNmfUO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1278" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pIeUTdMdYG4i5QMNmfUO-29" value="정보가 적절히 입력됨" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1150" width="120" height="80" as="geometry" />
@@ -129,13 +130,14 @@
         <mxCell id="pIeUTdMdYG4i5QMNmfUO-31" value="Ajax를 통해 틀린게 있으면 밑에 경고문구" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pIeUTdMdYG4i5QMNmfUO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pIeUTdMdYG4i5QMNmfUO-34" edge="1">
+        <mxCell id="pIeUTdMdYG4i5QMNmfUO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1338" as="sourcePoint" />
             <mxPoint x="80" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pIeUTdMdYG4i5QMNmfUO-34" value="OB테이블에 정보 저장(카테고리 포함)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1278" width="120" height="60" as="geometry" />
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-1" target="aWaKsQ2O3t7kNbBKUAZW-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-1" value="KR 입력" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1390" width="120" height="60" as="geometry" />
@@ -165,6 +167,21 @@
         </mxCell>
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-8" value="경고" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-11" target="aWaKsQ2O3t7kNbBKUAZW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-11" value="정보가 적절히 입력됨" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-13" value="Ajax를 통해 틀린게 있으면 밑에 경고문구" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-15" value="OB테이블" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-16" value="Member 테이블" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="600" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
