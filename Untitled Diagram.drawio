@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T16:04:53.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="wHCP2Z5biFuqfJsKAGzg" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T16:05:46.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kCpSxXjmpKE8qfywhJvf" version="15.5.0" type="github">
   <diagram id="Uq3l2EWZINXqB6MkOoWw" name="전체적인 순서도">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4082" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,10 +200,27 @@
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-21" value="사용자가 + 버튼 클릭" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1730" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-24" target="aWaKsQ2O3t7kNbBKUAZW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aWaKsQ2O3t7kNbBKUAZW-24" value="저장된 KR의 수 &amp;lt;= n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1850" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aWaKsQ2O3t7kNbBKUAZW-26" target="aWaKsQ2O3t7kNbBKUAZW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1408.666748046875" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="1990" />
+              <mxPoint y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aWaKsQ2O3t7kNbBKUAZW-26" value="KR input 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
