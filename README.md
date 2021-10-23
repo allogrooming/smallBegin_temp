@@ -50,3 +50,6 @@ Flow chart
 ## Oct 04
 Set goal >> Goal
 Goal 시나리오, DBA 완성
+
+## Oct 23
+MySQL로 DB 생성, 테이블 작성
