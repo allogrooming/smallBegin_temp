@@ -53,3 +53,6 @@ Goal 시나리오, DBA 완성
 
 ## Oct 23
 MySQL로 DB 생성, 테이블 작성
+
+## Nov 06
+https://velog.io/@kiiim/smallbegin-%EC%97%90%EB%9F%AC1
