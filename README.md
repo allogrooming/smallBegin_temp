@@ -56,3 +56,6 @@ MySQL로 DB 생성, 테이블 작성
 
 ## Nov 06
 https://velog.io/@kiiim/smallbegin-%EC%97%90%EB%9F%AC1
+
+## Nov 15
+깃헙 블로그 만들었는데 업데이트도 안되고 mybatis 연결도 안됨ㅋ
